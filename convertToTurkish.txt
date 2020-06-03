@@ -1,0 +1,23 @@
+load analyzer.fst
+
+regex "+Ad" <- "+Noun",
+"+cogul"  <- "+Pl",
+"+tekil"  <- "+Sg",
+"+iyeliksiz"  <- "+PNon",
+"+iye_1_T"  <- "+P1sg",
+"+iye_2_T"  <- "+P2sg",
+"+iye_3_T"  <- "+P3sg",
+"+iye_1_C"  <- "+P1pl",
+"+iye_2_C"  <- "+P2pl",
+"+iye_3_C"  <- "+P3pl",
+"+yalin"  <- "+Nom",
+"+i_Hal"  <- "+Acc",
+"+e_Hal"  <- "+Dat",
+"+den_Hal"  <- "+Abl",
+"+de_Hal"  <- "+Loc",
+"+ilgi_Eki"  <- "+Gen",
+"+vasita_Eki"  <- "+Ins";
+
+compose
+
+save stack final.fst

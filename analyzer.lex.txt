@@ -1,0 +1,73 @@
+Multichar_Symbols
++Noun
++Pl
++Sg
++PNon
++P1sg
++P2sg
++P3sg
++P1pl
++P2pl
++P3pl
++Nom
++Acc
++Dat
++Abl
++Loc
++Gen
++Ins
+
+LEXICON Root
+araba N;
+
+LEXICON N
++Noun:0 Sg-Plu;
+
+LEXICON Sg-Plu
++Pl:lar Poss1;
++Sg:0 Poss2;
++Pl+P3pl:larI State2;
+
+LEXICON Poss1
++PNon:0 State1;
++P1sg:Im State1;
++P2sg:In State1;
++P3sg:I State2;
++P1pl:Imız State1;
++P2pl:InIz State1;
+
+LEXICON Poss2
++PNon:0 State3;
++P1sg:m State1;
++P2sg:n State1;
++P3sg:sI State2;
++P1pl:mız State1;
++P2pl:InIz State1;
++P3pl:larI State2;
+
+LEXICON State1
++Nom:0 #;
++Acc:I #;
++Dat:a #;
++Abl:dan #;
++Loc:da #;
++Gen:In #;
++Ins:la #;
+
+LEXICON State2
++Nom:0 #;
++Acc:nI #;
++Dat:na #;
++Abl:ndan #;
++Loc:nda #;
++Gen:nIn #;
++Ins:yla #;
+
+LEXICON State3
++Nom:0 #;
++Acc:yI #;
++Dat:ya #;
++Abl:dan #;
++Loc:da #;
++Gen:nIn #;
++Ins:yla #;
